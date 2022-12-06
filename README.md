@@ -5,7 +5,7 @@ Praticar a criação e implementação de uma Infraestrutura como Código (IaC) 
 
 
 ## :pushpin: Descrição
-Os modelos JSON do ARM (modelos do Azure Resource Manager) permitem especificar a infraestrutura de seu projeto de modo declarativo e reutilizável. Os modelos podem ter controle de versão e ser salvos no mesmo controle do código-fonte do projeto de desenvolvimento. Este é apenas uma das formas, existe outras como Terraform, Ansible, Bicep e ARM. 
+Os modelos JSON do ARM (modelos do Azure Resource Manager) permitem especificar a infraestrutura de seu projeto de modo declarativo e reutilizável, tratando sua infraestrutura como código. Tratar sya infraestrutura como código permite que você controle as alterações em seus requisitos de infraestrutura e torna suas implantações mais consistentes e reproduzíveis. Os modelos podem ter controle de versão e ser salvos no mesmo controle do código-fonte do projeto de desenvolvimento. Este é apenas uma das formas, existe outras como Terraform, Ansible, Bicep e ARM. 
 
 
 ## :computer: Como rodar a aplicação
