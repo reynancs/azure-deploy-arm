@@ -1,17 +1,11 @@
 ## :dart: Objetivo
 Praticar a criação e implementação de uma Infraestrutura como Código (IaC) na Cloud Azure, usando o Modelo ARM (Azure Resource Manager) em formato .json.
-Esta prática é voltada para automação no deploy de recursos em uma cloud, o objetivo final é praticar as principais ferramentas de DevOps na cloud Azure.
-
-- Azure Cloud Provider
-- IaC - ARM Model
-- Azure CLI
+- Implementar um modelo JSON do ARM usando o Visual Studio Code;
+- Declarar recursos e adicionar flexibilidade ao modelo adicionando parâmetros e saídas.
 
 
 ## :pushpin: Descrição
-
-Este exemplo foi realizado a partir da Trilha de Estudo para certificação: AZ-104: pré-requisitos para administradores do Azure, onde foi criado um arquivo em 
-formato .json utilizano modelo ARM na cloud Azure, o qual foi criado um recurso do tipo Storage Account e parâmetros do tipo: resources, parameters e output.
-
+Os modelos JSON do ARM (modelos do Azure Resource Manager) permitem especificar a infraestrutura de seu projeto de modo declarativo e reutilizável. Os modelos podem ter controle de versão e ser salvos no mesmo controle do código-fonte do projeto de desenvolvimento. Este é apenas uma das formas, existe outras como Terraform, Ansible, Bicep e ARM. 
 
 
 ## :computer: Como rodar a aplicação
@@ -24,6 +18,7 @@ formato .json utilizano modelo ARM na cloud Azure, o qual foi criado um recurso 
   - `--parameters storageSKU=Standard_LRS` : Tipo de SKU passando como parâmetro no azure CLI 
   - `--parameters storageName=mystorage06122022` : Nome do seu Storage Account, necessário trocar por um outro que seja <unique-name>
 
+
 ## :triangular_flag_on_post: Pré-Requisitos
 - VS Code v1.72.2
 - cmdlet = Azure CLI
@@ -33,7 +28,8 @@ formato .json utilizano modelo ARM na cloud Azure, o qual foi criado um recurso 
 
 
 ## :link: Links/Referência
-- [Microsoft Learn](https://learn.microsoft.com/pt-br/training/modules/create-azure-resource-manager-template-vs-code/7-summary)
+- Este exemplo foi realizado a partir da Trilha de Estudo para certificação: AZ-104: pré-requisitos para administradores do Azure [Microsoft Learn](https://learn.microsoft.com/pt-br/training/modules/create-azure-resource-manager-template-vs-code/7-summary)
+
 
 ### :bookmark: Notas
 - Necessário alterar o nome do Storage Account, onde os nomes devem ser Únicos na plataforma Azure;
